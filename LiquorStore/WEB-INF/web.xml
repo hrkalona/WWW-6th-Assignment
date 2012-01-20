@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
+    Version="2.4">
+
+    <servlet>
+        <servlet-name>Project4Information</servlet-name>
+        <servlet-class>LiquorStore.InformationServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Project4Information</servlet-name>
+        <url-pattern>/GetProject4Info.do</url-pattern>
+    </servlet-mapping>
+    
+    <context-param>
+        <param-name>redirectLink4</param-name>
+        <param-value>https://hrkalona.wordpress.com/2011/12/22/www-6th-assignment/</param-value>
+    </context-param>
+    
+    <listener>
+        <listener-class>LiquorStore.InformationServletContextListener</listener-class>
+    </listener>
+    
+    <servlet>
+        <servlet-name>SourceCodeProject4</servlet-name>
+        <servlet-class>LiquorStore.SourceCodeServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>SourceCodeProject4</servlet-name>
+        <url-pattern>/project4.rar</url-pattern>
+    </servlet-mapping>
+    
+    
+
+</web-app>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Prices>
+    <Product>
+        <Category>Whiskey</Category>
+        <Name>JOHNNIE WALKER RED LABEL</Name>
+        <Price>17.48</Price>  
+    </Product>
+
+    <Product>
+        <Category>Whiskey</Category>
+        <Name>HAIG</Name>
+        <Price>17.86</Price>
+    </Product>
+
+    <Product>
+        <Category>Whiskey</Category>
+        <Name>DIMPLE</Name>
+        <Price>28.14</Price>
+    </Product>
+
+    <Product>
+        <Category>Vodka</Category>
+        <Name>SMIRNOFF RED</Name>
+        <Price>15.71</Price>
+    </Product>
+
+    <Product>
+        <Category>Vodka</Category>
+        <Name>URSUS ROTER</Name>
+        <Price>13.10</Price>
+    </Product>
+
+    <Product>
+        <Category>Tequila</Category>
+        <Name>JOSE CUERVO ESPECIAL</Name>
+        <Price>20.02</Price>
+    </Product>
+   
+    <Product>
+        <Category>Gin</Category>
+        <Name>TANQUERAY</Name>
+        <Price>19.63</Price>
+    </Product>
+
+     <Product>
+        <Category>Gin</Category>
+        <Name>GORDONS DRY</Name>
+        <Price>15.18</Price>
+    </Product>
+
+    <Product>
+        <Category>Liquer</Category>
+        <Name>BAILEYS</Name>
+        <Price>15.49</Price>
+    </Product>
+
+    <Product>
+        <Category>Liquer</Category>
+        <Name>GRAND MARNIER CORDON JAUNE</Name>
+        <Price>24.45</Price>
+    </Product>
+</Prices>
